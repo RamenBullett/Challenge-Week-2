@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    background-color: lightgray;
+}
+
+body {
+    display: flex;
+    Flex-direction: column;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: #ADD8E6;
+    color: black;
+    width: 100%;
+    position: fixed;
+    height: 8%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    margin-top: 0.5%;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+    margin: 2%
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin: 1%;
+
+}
+
+.short:hover {
+    background-color: aqua;
+    height: 60%;
+}
+
+nav ul li:hover {
+    background-color: aqua;
+    height: 85%;
+}
+
+h1 {
+    margin: 2%;
+    font-size: 300%;
+    font-family: serif;
+}
+
+h2 {
+    margin: 2%;
+    font-size: 300%;
+    font-family: serif;
+    display: flex;
+    
+}
+
+ p {
+    font-family: serif;
+    font-size: 32px;
+    display: flex;
+}
+
+main {
+    margin-top: 3%;
+}
+
+section article {
+    display: flex;
+    height: 100%;
+}
+
+section article h1 {
+    Margin-left: 20%;
+    display: flex;
+}
+
+.works { 
+    float: right;
+    padding: 0.5%;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    flex-direction: column;
+    
+}
+
+.nugget {
+    display: flex;
+    height: 300px;
+}
+
+#top-img {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#CI li {
+    font-family: serif;
+    font-size: 32px;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 825px) and (min-width: 480px) {
+    
+   header {
+    font-size: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: lightgreen;
+    color: black;
+    width: 100%;
+    position: fixed;
+    height: 8%;
+    z-index: 100;
+}
+
+}
+
